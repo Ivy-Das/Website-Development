@@ -1,0 +1,380 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.navbar{
+    background: rgb(143, 230, 252);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 30px;
+}
+
+#navbar-logo{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 5px 2px;
+    margin-top: 10px;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar-item{
+    height: 80px;
+}
+
+.navbar-links{
+    color: rgb(6, 4, 119);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar-links:hover{
+    color: rgb(129, 44, 207);
+    transition: all 0.3s ease;
+}
+
+.home{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+
+.Welcome{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.desc{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/*.Welcome input[type=text] {
+    float: centre;
+    padding: 6px;
+    border: 1px solid black;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 1.625rem;
+  }
+
+  .Welcome input[type=text]:hover{
+      color: rgb(6, 4, 119);
+  }*/
+
+/*#search-box{
+    float: centre;
+    padding: 6px;
+    border: 1px solid black;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 1.625rem;
+    color: rgb(6, 4, 119);
+}*/
+
+
+
+
+.search-box{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    color: black;
+    border-color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-box > i{
+    font-size: 15px;
+    color: #777;
+    align-items: center;
+}
+
+input[type=submit]{
+    padding: 8px 15px;
+    background: rgb(53, 230, 236);
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: rgb(0, 0, 0);
+}
+
+input[type=submit]:hover{
+    background-color: rgb(127, 127, 235);
+}
+
+.search-box > input{
+    flex: 1;
+    height: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 15px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.creatures img{
+    border-radius: 20px;
+    box-shadow: inset 30px;
+}
+
+.creatures img:hover{
+    height: 300px;
+    width: 440px;
+    transition-duration: 1.2s;
+    
+}
+.creatures{
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    border-radius: 50px;
+}
+
+/*.whale-types{
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}*/
+
+.creatures p{
+    color: black;
+}
+
+.responsive{
+    max-width: 100%;
+    /*height: auto;*/
+    min-width: 120px;
+}
+
+.content{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+
+.content p{
+    margin: 15px;
+}
+
+.content img{
+    height: 250px;
+    width: 400px;
+    float: right;
+    margin: 10px;
+}
+
+.creature-pix{
+    /*display: flex;*/
+    gap: 3rem;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    border-radius: 50px;
+}
+.creature-pix img{
+    border-radius: 50px;
+}
+
+/*footer css*/
+.footer-container{
+    background-color: rgb(143, 230, 252);
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-links{
+    width: 100%;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link-wrapper{
+    display: flex;
+
+}
+
+.footer-links-items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 15px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+
+}
+
+.footer-links-items h2{
+    color: rgb(6, 4, 119);
+}
+
+.footer-links-items a{
+    color: rgb(6, 4, 119);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+
+}
+
+.social-media{
+    max-width: 1000px;
+    width: 100%;
+
+}
+
+.social-media-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+
+}
+
+.footer-logo{
+    color: rgb(6, 4, 119);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+#footer-logo{
+    color: rgb(6, 4, 119);
+    justify-self: flex-start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.website-rights{
+    color: rgb(6, 4, 119);
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+}
+
+.social-icons-link{
+    color: rgb(6, 4, 119);
+    font-size: 15px;
+
+}
+
+@media screen and (max-width:800px){
+    .footer-links-items{
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .creatures{
+        flex-direction: column;
+    }
+
+    .whale-types{
+        flex-direction: column;
+    }
+    .search-box{
+        width: 200px;
+    }
+    .search-box > i > input{
+        width: 50px;
+    }
+    #txtInput{
+        width:50px;
+    }
+}
